@@ -1,18 +1,22 @@
+import styles from './index.module.css'
+
 const Page = () => {
-  const dummyArray = [...Array(100)]
+  const dummyArray = [...Array(1000)]
   return (
-    <div>
+    <div className={styles.container}>
       <p>normal image</p>
-      {dummyArray.map((_, i) => {
-        return (
-          <img
-            key={`nextImage-${i}`}
-            src={`https://picsum.photos/400/200?random=${i}`}
-            width={400}
-            height={200}
-          />
-        )
-      })}
+      <div className={styles.image_container}>
+        {dummyArray.map((_, i) => {
+          return (
+            <img
+              key={`nextImage-${i}`}
+              src={`https://picsum.photos/400/200?random=${i}`}
+              width={400}
+              height={200}
+            />
+          )
+        })}
+      </div>
     </div>
   )
 }
