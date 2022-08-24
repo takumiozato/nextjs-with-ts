@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Next.js + TSなアプリケーション。
+主にNext.jsの色々な機能を使いながら理解を深める目的。
