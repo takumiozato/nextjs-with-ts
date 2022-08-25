@@ -1,0 +1,25 @@
+@import '@variables';
+
+.headingLg {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 30px 0 15px;
+  border-left: 5px solid rgb(0, 111, 167);
+  padding-left: 15px;
+
+  @include mq(sm) {
+    font-size: 24px;
+    margin: 10px 0 15px;
+  }
+}
+
+.headingMd {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+
+  @include mq(sm) {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+}
