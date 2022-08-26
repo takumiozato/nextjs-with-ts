@@ -13,13 +13,6 @@
   }
 }
 
-.headingMd {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 20px 0 10px;
-
-  @include mq(sm) {
-    font-size: 18px;
-    margin: 10px 0 5px;
-  }
+.linkCardWrapper {
+  margin-bottom: 15px;
 }
